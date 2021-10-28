@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  height: calc(100vh - 120px);
+  width: calc(100vw - 120px);
+  padding: 60px;
+}
+
+.panel {
+  border-radius: 50px;
+  min-width: 135px;
+  transition: flex 0.7s ease-in;
+}
+.panel + .panel {
+  margin-left: 36px;
+}
+
+.expanded {
+  flex: 1;
+}
+
+.title {
+  padding-left: 24px;
+  color: white;
+  font-size: 24px;
+  height: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.fade {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

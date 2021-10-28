@@ -1,0 +1,50 @@
+.wrapper {
+  min-height: 300px;
+  position: relative;
+
+  transition: hover 0.7s ease-in;
+}
+
+.wrapper:hover {
+  background-color: #9901ff;
+}
+
+.wrapper:hover .img {
+  opacity: 0.05;
+}
+
+.wrapper:hover .info {
+  opacity: 1;
+}
+
+.day {
+  position: absolute;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: rebeccapurple;
+  top: 0;
+  right: 0;
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #3b0281;
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  cursor: pointer;
+}
