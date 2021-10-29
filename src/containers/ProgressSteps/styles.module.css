@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 350px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btnList {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  color: white;
+  background-color: #3498db;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+  border: 0;
+}
+
+.step {
+  background-color: white;
+  color: #999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 3px solid #e0e0e0;
+  transition: 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  border-color: #3498db;
+}
+
+.forbidden {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.grayLine {
+  position: absolute;
+  border-top: 3px solid #e0e0e0;
+  z-index: -2;
+  width: 100%;
+  top: 15px;
+}
+
+.line {
+  position: absolute;
+  border-top: 3px solid #3498db;
+  z-index: -1;
+  transition: 0.4s ease;
+  top: 15px;
+}

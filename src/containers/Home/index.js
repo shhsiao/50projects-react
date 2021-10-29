@@ -1,8 +1,9 @@
 import React from 'react';
-import ExpandingCards from '../ExpandingCards';
 import styles from './styles.module.css';
 import Panel from '../../components/Home/Panel';
 import { Switch, Route } from 'react-router-dom';
+import ExpandingCards from '../ExpandingCards';
+import ProgressSteps from '../ProgressSteps';
 
 const Home = () => {
   const projectList = [
@@ -12,7 +13,12 @@ const Home = () => {
       photoUrl:
         'https://50projects50days.com/img/projects-img/1-expanding-cards.png',
     },
-    null,
+    {
+      title: 'Pregress Steps',
+      comp: ProgressSteps,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/2-progress-steps.png',
+    },
     null,
     null,
     null,
