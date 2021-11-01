@@ -4,6 +4,7 @@ import Panel from '../../components/Home/Panel';
 import { Switch, Route } from 'react-router-dom';
 import ExpandingCards from '../ExpandingCards';
 import ProgressSteps from '../ProgressSteps';
+import RotatingNavigationAnimation from '../RotatingNavigationAnimation';
 
 const Home = () => {
   const projectList = [
@@ -19,7 +20,12 @@ const Home = () => {
       photoUrl:
         'https://50projects50days.com/img/projects-img/2-progress-steps.png',
     },
-    null,
+    {
+      title: 'Rotating Navigation Animation',
+      comp: RotatingNavigationAnimation,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/3-rotating-navigation-animation.png',
+    },
     null,
     null,
     null,
