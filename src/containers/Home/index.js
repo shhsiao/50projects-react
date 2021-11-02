@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import ExpandingCards from '../ExpandingCards';
 import ProgressSteps from '../ProgressSteps';
 import RotatingNavigationAnimation from '../RotatingNavigationAnimation';
+import HiddenSearchWidget from '../HiddenSearchWidget';
 
 const Home = () => {
   const projectList = [
@@ -25,6 +26,12 @@ const Home = () => {
       comp: RotatingNavigationAnimation,
       photoUrl:
         'https://50projects50days.com/img/projects-img/3-rotating-navigation-animation.png',
+    },
+    {
+      title: 'Hidden Search Widget',
+      comp: HiddenSearchWidget,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/4-hidden-search-widget.png',
     },
     null,
     null,

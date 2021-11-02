@@ -1,0 +1,29 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #7d5fff, #7158e2);
+}
+
+.widget {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  border: 0;
+  font-size: large;
+  font-weight: bold;
+  transition: 1s ease;
+}
