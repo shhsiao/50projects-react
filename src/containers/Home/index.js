@@ -6,6 +6,7 @@ import ExpandingCards from '../ExpandingCards';
 import ProgressSteps from '../ProgressSteps';
 import RotatingNavigationAnimation from '../RotatingNavigationAnimation';
 import HiddenSearchWidget from '../HiddenSearchWidget';
+import BlurryLoading from '../BlurryLoading';
 
 const Home = () => {
   const projectList = [
@@ -32,6 +33,12 @@ const Home = () => {
       comp: HiddenSearchWidget,
       photoUrl:
         'https://50projects50days.com/img/projects-img/4-hidden-search-widget.png',
+    },
+    {
+      title: 'Blurry Loading',
+      comp: BlurryLoading,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/5-blurry-loading.png',
     },
     null,
     null,
