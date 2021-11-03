@@ -7,6 +7,7 @@ import ProgressSteps from '../ProgressSteps';
 import RotatingNavigationAnimation from '../RotatingNavigationAnimation';
 import HiddenSearchWidget from '../HiddenSearchWidget';
 import BlurryLoading from '../BlurryLoading';
+import ScrollAnimation from '../ScrollAnimation';
 
 const Home = () => {
   const projectList = [
@@ -39,6 +40,12 @@ const Home = () => {
       comp: BlurryLoading,
       photoUrl:
         'https://50projects50days.com/img/projects-img/5-blurry-loading.png',
+    },
+    {
+      title: 'Scroll Animation',
+      comp: ScrollAnimation,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/6-scroll-animation.png',
     },
     null,
     null,
