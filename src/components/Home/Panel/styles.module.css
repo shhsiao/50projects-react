@@ -1,8 +1,7 @@
 .wrapper {
-  min-height: 300px;
   position: relative;
-
-  transition: hover 0.7s ease-in;
+  width: 100%;
+  transition: 0.5s ease-in;
 }
 
 .wrapper:hover {
@@ -29,15 +28,21 @@
 
 .info {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
   opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   color: white;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .btn {

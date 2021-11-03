@@ -47,25 +47,6 @@ const Home = () => {
       photoUrl:
         'https://50projects50days.com/img/projects-img/6-scroll-animation.png',
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
   ];
   const getSwitch = () => {
     const getRouteList = () =>

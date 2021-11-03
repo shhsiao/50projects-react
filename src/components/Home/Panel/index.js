@@ -6,7 +6,7 @@ const Panel = ({ title, dayNum, photoUrl }) => {
   }
   return (
     <div className={styles.wrapper}>
-      <img className={styles.img} src={photoUrl} alt={title} />
+      <img className={styles.img} src={photoUrl} alt={title} height="100%" width="100%"/>
       <div className={styles.day}>Day {dayNum}</div>
       <div className={styles.info}>
         <div className={styles.title}>{title}</div>
