@@ -8,6 +8,7 @@ import RotatingNavigationAnimation from '../RotatingNavigationAnimation';
 import HiddenSearchWidget from '../HiddenSearchWidget';
 import BlurryLoading from '../BlurryLoading';
 import ScrollAnimation from '../ScrollAnimation';
+import SplitLandingPage from '../SplitLandingPage';
 
 const Home = () => {
   const projectList = [
@@ -46,6 +47,12 @@ const Home = () => {
       comp: ScrollAnimation,
       photoUrl:
         'https://50projects50days.com/img/projects-img/6-scroll-animation.png',
+    },
+    {
+      title: 'Split Landing Page',
+      comp: SplitLandingPage,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/7-split-landing-page.png',
     },
   ];
   const getSwitch = () => {
