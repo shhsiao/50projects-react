@@ -9,6 +9,7 @@ import HiddenSearchWidget from '../HiddenSearchWidget';
 import BlurryLoading from '../BlurryLoading';
 import ScrollAnimation from '../ScrollAnimation';
 import SplitLandingPage from '../SplitLandingPage';
+import FormWave from '../FormWave';
 
 const Home = () => {
   const projectList = [
@@ -53,6 +54,11 @@ const Home = () => {
       comp: SplitLandingPage,
       photoUrl:
         'https://50projects50days.com/img/projects-img/7-split-landing-page.png',
+    },
+    {
+      title: 'Form Wave',
+      comp: FormWave,
+      photoUrl: 'https://50projects50days.com/img/projects-img/8-form-wave.png',
     },
   ];
   const getSwitch = () => {
