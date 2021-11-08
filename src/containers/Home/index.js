@@ -11,6 +11,7 @@ import ScrollAnimation from '../ScrollAnimation';
 import SplitLandingPage from '../SplitLandingPage';
 import FormWave from '../FormWave';
 import SoundBoard from '../SoundBoard';
+import DadJokes from '../DadJokes';
 
 const Home = () => {
   const projectList = [
@@ -65,6 +66,11 @@ const Home = () => {
       title: 'Sound Board',
       comp: SoundBoard,
       photoUrl: 'https://50projects50days.com/img/projects-img/9-sound-board.png',
+    },
+    {
+      title: 'Dad Jokes',
+      comp: DadJokes,
+      photoUrl: 'https://50projects50days.com/img/projects-img/10-dad-jokes.png',
     },
   ];
   const getSwitch = () => {
