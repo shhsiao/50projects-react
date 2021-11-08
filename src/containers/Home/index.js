@@ -10,6 +10,7 @@ import BlurryLoading from '../BlurryLoading';
 import ScrollAnimation from '../ScrollAnimation';
 import SplitLandingPage from '../SplitLandingPage';
 import FormWave from '../FormWave';
+import SoundBoard from '../SoundBoard';
 
 const Home = () => {
   const projectList = [
@@ -59,6 +60,11 @@ const Home = () => {
       title: 'Form Wave',
       comp: FormWave,
       photoUrl: 'https://50projects50days.com/img/projects-img/8-form-wave.png',
+    },
+    {
+      title: 'Sound Board',
+      comp: SoundBoard,
+      photoUrl: 'https://50projects50days.com/img/projects-img/9-sound-board.png',
     },
   ];
   const getSwitch = () => {
