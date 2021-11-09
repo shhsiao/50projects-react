@@ -12,6 +12,7 @@ import SplitLandingPage from '../SplitLandingPage';
 import FormWave from '../FormWave';
 import SoundBoard from '../SoundBoard';
 import DadJokes from '../DadJokes';
+import EventKeycodes from '../EventKeycodes';
 
 const Home = () => {
   const projectList = [
@@ -71,6 +72,11 @@ const Home = () => {
       title: 'Dad Jokes',
       comp: DadJokes,
       photoUrl: 'https://50projects50days.com/img/projects-img/10-dad-jokes.png',
+    },
+    {
+      title: 'Event Keycodes',
+      comp: EventKeycodes,
+      photoUrl: 'https://50projects50days.com/img/projects-img/11-event-keycodes.png',
     },
   ];
   const getSwitch = () => {
