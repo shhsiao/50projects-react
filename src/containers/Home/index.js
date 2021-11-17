@@ -13,6 +13,7 @@ import FormWave from '../FormWave';
 import SoundBoard from '../SoundBoard';
 import DadJokes from '../DadJokes';
 import EventKeycodes from '../EventKeycodes';
+import FaqCollapse from '../FaqCollapse';
 
 const Home = () => {
   const projectList = [
@@ -77,6 +78,11 @@ const Home = () => {
       title: 'Event Keycodes',
       comp: EventKeycodes,
       photoUrl: 'https://50projects50days.com/img/projects-img/11-event-keycodes.png',
+    },
+    {
+      title: 'Faq Collapse',
+      comp: FaqCollapse,
+      photoUrl: 'https://50projects50days.com/img/projects-img/12-faq-collapse.png',
     },
   ];
   const getSwitch = () => {

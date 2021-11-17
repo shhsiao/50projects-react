@@ -1,0 +1,66 @@
+.wrapper {
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.content {
+  width: 600px;
+}
+.card {
+  font-family: 'Muli', sans-serif;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.expanded {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.expanded::before {
+  color: #3498db;
+  /* top: -10px;
+  left: -30px; */
+  transform: rotateX(180deg);
+}
+
+.expanded::before,
+.expanded::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+.expanded::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
