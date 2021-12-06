@@ -14,6 +14,7 @@ import SoundBoard from '../SoundBoard';
 import DadJokes from '../DadJokes';
 import EventKeycodes from '../EventKeycodes';
 import FaqCollapse from '../FaqCollapse';
+import RandomChoicePircker from '../RandomChoicePicker';
 
 const Home = () => {
   const projectList = [
@@ -67,22 +68,32 @@ const Home = () => {
     {
       title: 'Sound Board',
       comp: SoundBoard,
-      photoUrl: 'https://50projects50days.com/img/projects-img/9-sound-board.png',
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/9-sound-board.png',
     },
     {
       title: 'Dad Jokes',
       comp: DadJokes,
-      photoUrl: 'https://50projects50days.com/img/projects-img/10-dad-jokes.png',
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/10-dad-jokes.png',
     },
     {
       title: 'Event Keycodes',
       comp: EventKeycodes,
-      photoUrl: 'https://50projects50days.com/img/projects-img/11-event-keycodes.png',
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/11-event-keycodes.png',
     },
     {
       title: 'Faq Collapse',
       comp: FaqCollapse,
-      photoUrl: 'https://50projects50days.com/img/projects-img/12-faq-collapse.png',
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/12-faq-collapse.png',
+    },
+    {
+      title: 'Random Choice Picker',
+      comp: RandomChoicePircker,
+      photoUrl:
+        'https://50projects50days.com/img/projects-img/13-random-choice-picker.png',
     },
   ];
   const getSwitch = () => {
